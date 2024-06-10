@@ -1,0 +1,17 @@
+.mainContainer {
+    display: flex;
+    width: 800px;
+    height: 600px;
+    align-content: start;
+    border: 4px solid black;
+}
+
+.mainContainer div {
+    flex: 1;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
